@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # Service pour l'application Spring Boot
   app:
-    image: ihebbouallegue/tp-foyer:latest
+    image: ihebbouallegue/tp-foyer-image:latest
     container_name: tpfoyer_app
     environment:
       - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/db?createDatabaseIfNotExist=true
