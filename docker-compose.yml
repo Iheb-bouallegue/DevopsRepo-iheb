@@ -43,6 +43,8 @@ services:
       container_name: tpfoyer_frontend
       ports:
         - "80:80"
+      depends_on:
+        - app
 
 
 # Déclaration du réseau
