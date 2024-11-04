@@ -45,6 +45,8 @@ services:
         - "80:80"
       depends_on:
         - app
+      networks:
+        - tpfoyer-network
 
 
 # Déclaration du réseau
