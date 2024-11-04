@@ -46,7 +46,7 @@ services:
       depends_on:
         - app
       networks:
-        - tpfoyer-network
+        - tpfoyer_network
 
 
 # Déclaration du réseau
