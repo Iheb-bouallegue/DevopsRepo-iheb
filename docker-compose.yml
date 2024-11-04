@@ -37,6 +37,13 @@ services:
       - mysql_data:/var/lib/mysql
     networks:
       - tpfoyer_network
+  # Service pour l'application Angular
+  frontend:
+      image: ihebbouallegue/tp-foyer-front-image:latest
+      container_name: tpfoyer_frontend
+      ports:
+        - "80:80"
+
 
 # Déclaration du réseau
 networks:
